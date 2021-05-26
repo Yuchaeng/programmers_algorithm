@@ -6,3 +6,4 @@ def solution(p, c):
     result = collections.Counter(p) - collections.Counter(c)
 
     return list(result)[0]
+#Counter 객체 사용
